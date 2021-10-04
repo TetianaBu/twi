@@ -1,0 +1,91 @@
+html {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+h1 {
+  margin: 20px 0;
+  letter-spacing: 1.5px;
+  font-weight: 550;
+}
+
+body {
+  background-color: black;
+}
+
+button {
+  border: 1px solid #1da1f2;
+  color: #1da1f2;
+  background-color: black;
+  border-radius: 20px;
+  padding: 6px 10px;
+  outline: none;
+  margin-right: 10px;
+}
+
+button:hover {
+  border-color: lightblue;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+textarea {
+  width: 300px;
+  min-height: 60px;
+}
+
+#root {
+  color: #d9d9d9;
+  margin: 20px auto;
+  display: grid;
+  justify-content: center;
+  grid-gap: 10px;
+  position: relative;
+}
+
+#tweetItems {
+  width: 308px;
+}
+
+#list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#navigationButtons {
+  margin-bottom: 20px;
+}
+
+#alertMessageText {
+  color: lightblue;
+  padding: 20px;
+  align-content: center;
+}
+
+.tweet-wrapper {
+  margin-top: 40px;
+}
+
+.new-tweet-btn-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px auto;
+}
+
+.posts-buttons-wrapper {
+  margin-bottom: 15px;
+  margin-top: 0;
+  display: flex;
+  justify-content: flex-end;
+}

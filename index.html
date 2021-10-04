@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>bom-twitter</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<div id="root">
+		<div id="alertMessage" class="hidden"><span id="alertMessageText"></span></div>
+		<div id="tweetItems" class="listPage">
+			<h1>Pseudo Twitter</h1>
+			<div id="navigationButtons">
+				<button class="addTweet">add</button>
+			</div>
+			<ul id="list"></ul>
+		</div>
+		<div id="modifyItem" class="hidden">
+			<h1 id="modifyItemHeader">edit tweet</h1>
+			<textarea id="modifyItemInput"></textarea>
+			<div class="formButtons">
+				<button id="cancelModification">cancel</button>
+				<button id="saveModifiedItem">save changes</button>
+			</div>
+		</div>
+	</div>
+	<script src="./bom-twitter.js"></script>
+</body>
+
+</html>
